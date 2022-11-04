@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="6O:jJKg)6=TqmhxVz9,v">fails</variable></variables><block type="device_pin_event" id="f-Qs:Oaq,,HI#}-5/`SM" x="-321" y="-3"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="device_show_leds" id="es^)8b.kXDKnud/YtrO#"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_pause" id="(Ue{_OQv[3^pN3#m!e[x"><value name="pause"><shadow type="math_number" id="+8:*c^I(/}RzUw?AH3vU"><field name="NUM">1000</field></shadow></value><next><block type="variables_change" id="Z$m1:}UbCM?n~.0c4}d]"><field name="VAR" id="6O:jJKg)6=TqmhxVz9,v">fails</field><value name="VALUE"><shadow type="math_number" id="H4yH=h?%Ir[Tgra=cEM3"><field name="NUM">1</field></shadow></value><next><block type="device_show_number" id="xR,G6rG[t*Wdi]2,tqqN"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="e:O^}u2lxru8YYIihF!5"><field name="VAR" id="6O:jJKg)6=TqmhxVz9,v">fails</field></block></value></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="{++vtjoici(-Ua)~TGoE" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="rAIgJ4._W(NO.M@{Y@(f"><field name="VAR" id="6O:jJKg)6=TqmhxVz9,v">fails</field><value name="VALUE"><shadow type="math_number" id="9r/Ag:+6E6em7u@2.(hY"><field name="NUM">0</field></shadow></value><next><block type="device_show_leds" id="l!h-s;)Jh+DS5$SLjCrT"><field name="LEDS">`
+        # # # . # 
+        # . # . # 
+        # . # . # 
+        # . # # # 
+        # . . . .
+        `</field><next><block type="device_pause" id="EV4VT+C)x0jG$2,K%!Py"><value name="pause"><shadow type="math_number" id="la%AG5UtI@LPFDZm/iBM"><field name="NUM">1000</field></shadow></value><next><block type="device_show_number" id="@L1io+*0pSGy]+UmNWVn"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="n5u)jXYJsYU%Hm0KRLT~"><field name="VAR" id="6O:jJKg)6=TqmhxVz9,v">fails</field></block></value></block></next></block></next></block></next></block></statement></block></xml>
